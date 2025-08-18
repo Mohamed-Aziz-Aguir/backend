@@ -1,28 +1,7 @@
-# Python
+venv/
+*.json
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-*.db
-
-# Virtual environment
-venv/
+*.log
 .env
 
-# Logs
-*.log
-
-# JSON dumps / cache
-*.json
-!config.json   # allow small configs if needed
-
-# Docker
-*.pid
-*.seed
-*.tar
-*.gz
-*.zip
-
-# IDE
-.vscode/
-.idea/
